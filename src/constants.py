@@ -1,0 +1,18 @@
+import pygame as pg
+
+WINDOW_SIZE = WINDOW_WIDTH, WINDOW_HEIGHT = 800, 600
+CAPTION = 'Another PyPong game.'
+
+PLATFORM_HEIGHT = 100
+PLATFORM_WIDTH = 10
+
+BALL_HEIGHT = 14
+
+MOVE_DOWN = 1
+MOVE_UP = -1
+
+COLORS = {
+    'WHITE' : (255, 255, 255),
+    'BLACK' : (0, 0, 0),
+    'GREEN' : (0, 255, 0)
+}
